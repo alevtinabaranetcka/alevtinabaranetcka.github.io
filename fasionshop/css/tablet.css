@@ -1,0 +1,182 @@
+@media only screen and (min-width : 760px) and (max-width : 1199px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    .top_line {
+        width: 97%;
+        margin-left: 14px;
+        margin-right: 15px;
+    }
+
+    .top_left p {
+        padding-left: 14px;
+    }
+    .logo {
+        padding: 38px 0 12px 0;
+    }
+    .top_right {
+        padding-right: 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+    .menu_mobile {
+        display: inline-block;
+        margin: 21px auto 17px auto;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #fd926d;
+    }
+
+    #menu_mobile {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 48px;
+        background-color: #fd926d;
+        vertical-align: middle;
+        line-height: 48px;
+    }
+  #btn-text {
+      font-size: 1.5056250150564em;
+      text-transform: uppercase;
+      background: transparent;
+      display: inline-block;
+        color: white;
+      float: left;
+    }
+   #btn-bar {
+       text-transform: uppercase;
+       font-size: 1.5056250150564em;
+       background: transparent;
+       display: inline-block;
+        color: white;
+        float: right;
+    }
+    .dropdown-content {
+        height: 48px;
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 610px;
+        width: 100%;
+
+
+    }
+    .dropdown-content a {
+        color: black;
+        background-color: whitesmoke;
+        padding: 4px 16px;
+        text-decoration: none;
+        display: block;
+
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+
+    }
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover, .dropdown-content a:focus {
+        background-color: #fd926d;
+        color: white;
+
+    }
+
+
+    .mySlides  img {
+
+        width: 113.338%;
+        height: auto;
+    }
+    .prev, .next {
+        margin-top: 0;
+        top: 30%;
+    }
+
+    .socLine {
+        padding: 0 15px;
+    }
+    .banners {
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+        width: 730px;
+        height: 257px;
+        text-align: center;
+    }
+    .banners-l img, .banners-l {
+        width: 364px;
+        height: 256px;
+    }
+    .banners-m img {
+        width: 364px;
+        height: 127px;
+    }
+   .banners-m {
+       width: 363px;
+       height: 129px;
+   }
+    .banners-s img {
+        width: 181px;
+        height: 127px;
+    }
+    .banners-s {
+        width: 179px;
+        height: 127px;
+    }
+    .tabcontent li:nth-child(4), .tabcontent li:last-child {
+        display: none;
+    }
+    ul.tab {
+        margin-left: 0;
+    }
+    .tabcontent li {
+        margin: 0 15px;
+    }
+    .saleit li:last-child {
+        display: none;
+    }
+    .saleit {
+        width: 744px;
+    }
+    .brands li:last-child, .brands li:nth-child(7) {
+        display: none;
+    }
+    .about {
+        box-sizing: border-box;
+        height: 180px;
+    }
+    .about p {
+        width: 729px;
+        height: 84px;
+    }
+    .sub-menu ul {
+        box-sizing: border-box;
+
+        height: 170px;
+    }
+    .sub-menu-left {
+        box-sizing: border-box;
+        width: 420px;
+        height: 340px;
+    }
+    .sub-menu {
+        width: 760px;
+        height: 347px;
+    }
+
+    .sub-menu-right {
+        box-sizing: border-box;
+        width: 340px;
+        height: 340px;
+    }
+    .social ul {
+
+    }
+    .f-menu-left-mobile {
+        display: none;
+    }
+}
