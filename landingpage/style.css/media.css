@@ -1,0 +1,418 @@
+@media only screen and (min-width : 768px) and (max-width : 955px) {
+	.nav-min-with-320 {
+        display: none;
+    }
+
+    .logo-line-middle {
+		display: none;
+	}
+	.logo-line-middle-768 {
+		display: block;
+		width: 61%;
+		line-height: 1px;
+		padding: 0 0 30px 0;
+			}
+	.logo-line {
+		height: auto;
+	}
+	.logo-line-middle-768 p {
+	font-size: 8pt;
+	color: #585858;
+}
+.logo-line-middle-768 a {
+	color: black;
+}
+.logo-line-right {
+	float: right;
+}
+.items {
+	width: 98%;
+}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	.logo-line {
+		height: auto;
+	}
+	.logo-line-left {
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
+	.logo-line-middle {
+		line-height: 1px;
+		display: block;
+	}
+	.logo-line-right {
+		width: 100%;
+		display: inline-flex;
+		margin: 0 auto;
+        line-height: 140px;
+    }
+    nav {
+        display: none;
+    }
+    .nav-min-with-320 {
+        display: block;
+    }
+    .baner {
+        display: none;
+    }
+   
+
+    
+    
+    footer {
+    	display: flex;
+    } 
+    footer .footer-right {
+        margin-left: 13%;
+        width: 27%;
+    }
+    footer .footer-left,  .footer-middle {
+    	width: 30%;
+    }
+    footer > div:last-of-type {
+    	width: 0;
+    }
+}
+
+@media only screen  and (min-width : 240px) and (max-width : 479px) {
+    nav {
+        display: none;
+    }
+    .nav-min-with-320 {
+        display: block;
+    }
+    .baner {
+        display: none;
+    }
+
+    .top-line-right  p {
+        display: none;
+    }
+    .logo-line {
+        padding: 0;
+        height: auto;
+        line-height: 100px;
+    }
+    .logo-line-left {
+       float: left;
+       display: block;
+       width: auto;
+    }
+    .logo-line-middle {
+       display: block;
+       float: right;
+       width: auto;
+    }
+    .logo-line-middle-rocket, .logo-line-middle-tel {
+        display: none;
+    }
+     /* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+   
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%; 
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+    line-height: 20px;
+}
+
+/* Tooltip arrow 
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+*/
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} 
+/*
+   @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+     height: 58px;
+      line-height: 15px;
+     top: -30%;
+     width: 90px;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+*/
+    /*.logo-line-middle-tel-mobile, .logo-line-middle-rocket-mobile {
+        display: block;
+        float: left;
+    }
+
+    /* скрываем чекбоксы и блоки с содержанием 
+.hide {
+    display: none; 
+}
+.hide + label ~ div {
+    display: none;
+}
+ оформляем текст label 
+.hide + label {
+    padding: 0;
+    cursor: pointer;
+    display: block; 
+}
+ вид текста label при активном переключателе
+.hide:checked + label {
+    line-height: 15px;
+    z-index: 1;
+
+}
+когда чекбокс активен показываем блоки с содержанием  
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 1px 1px 3px #7d8e8f;
+    -webkit-box-shadow: inset 1px 1px 3px #7d8e8f;
+    box-shadow: inset 1px 1px 3px #7d8e8f;
+    padding: 5px; 
+    line-height: 12px;
+}
+    */
+    .logo-line-right {
+        display: flex;
+        height: auto;
+        
+    }
+    .search .submit {
+        top: 36px;
+    }
+    .slogan-text {
+        padding: 10px;
+    }
+    .footer-min-widyh-480 {
+        display: none;
+    }
+    footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+    .toggle-button {
+        border: none;
+        width: 100%;
+        height: 50px;
+       text-align: left;
+        color: #d8ac75;
+        background-color: black;
+    }
+    .toggle-button i {
+         font-size: 20px;
+    }
+    .footer-min-widyh-320 ul {
+         display: block;
+    } 
+    .toggle-button {
+        display: block;
+    }
+    .toggle-button-links, .toggle-button-about {
+        width: 80px;
+        height: 50px;
+        border: none;
+        background: black;
+        color: #d8ac75;
+    }
+    .toggle-button-about {
+        float: right;
+    }
+    .footer-left {
+        width: 50%;
+        float: left;
+        display: block;
+    }
+    .footer-middle {
+        width: 100%;
+        overflow: auto;
+    }
+    .footer-right {
+    display: block;
+    float: right;
+    width: 50%;
+    margin-left: 0;
+}
+.footer-right p {
+    display: inline-block;
+    float: right;
+}
+footer > div:last-of-type {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+}
+@media only screen and (min-width : 240px) and (max-width : 767px) {
+
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d8ac75;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    background-color: black;
+    height: 53px;
+    line-height: 53px;
+    vertical-align: middle;
+    width: 100%;
+    color: #d8ac75;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+
+}
+#main span i {
+    float: right;
+    padding: 20px 10px;
+   }
+.items {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        margin-right: auto;
+    }
+    .items > div {
+        margin: 4px;
+    }
+    .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 75.6%;  
+    }
+    .slogan-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    .slogan-items > div {
+        margin: 10px;
+    }
+    .email-block {
+        height: auto;
+        justify-content: center;
+    }
+    .mail {
+        width: 89%;
+        align-items: center;
+        display: inline-flex;
+    }
+    .mail input {
+        margin-top: 0;
+    }
+
+
+}
